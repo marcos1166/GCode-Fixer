@@ -5,6 +5,6 @@ FlatCAM es un software hecho para generar codigo GCode a partir de archivos Gerb
 
 Al utilizarlo me pasaba que, al poner a funcionar la maquina, habia puntos en donde simplemente se levantaba y volvia a bajar en el mismo lugar sin cambiar de coordenadas en X e Y.
 
-Esto pasaba por que terminaba de trabajar una linea y empezaba la siguiente. Es decir, en lugar de unir 2 lineas consecutivas las trataba lineas separadas. Pero como no cambiaban las coordenadas X e Y era literalmente innecesario el cambio en el eje Z.
+Esto pasaba por que terminaba de trabajar una linea y empezaba la siguiente. Es decir, en lugar de unir 2 lineas consecutivas las trataba como lineas separadas. Pero como no cambiaban las coordenadas X e Y era literalmente innecesario el cambio en el eje Z.
 
 Este script en PHP encuentra esos puntos en el codigo y los remueve, lo que reduce a la mitad el tiempo de trabajo.
